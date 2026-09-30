@@ -1,0 +1,41 @@
+{
+  "name": "subsea-flow-calculator",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for deepwater subsea pipeline engineering: API RP 1111 collapse pressure limit states, hydrostatic gradients to 3,500m, Towler-Mokhatab hydrate equilibria, and Hammerschmidt MEG dosage calculations.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "subsea-flow-calculator": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "subsea",
+    "pipeline",
+    "api-1111",
+    "flow-assurance",
+    "deepwater",
+    "gulf-of-mexico",
+    "hydrate",
+    "offshore"
+  ],
+  "author": "datutu <ceo@dottheworld.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tudadada/subsea-flow-calculator.git"
+  },
+  "homepage": "https://gulfcoastsubsea.com/deepwater-pipeline-collapse-flow-assurance.html",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "smithery.yaml"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
